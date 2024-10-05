@@ -1,0 +1,5 @@
+dns-client
+requests
+bs4
+rich
+rich-cli
