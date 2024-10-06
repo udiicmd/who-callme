@@ -1,7 +1,7 @@
 setup:
 	apt-get update
 	apt-get upgrade
-	apt-get install ruby python ossp-uuid figlet pv toilet nodejs
+	apt-get install ruby python ossp-uuid figlet pv toilet nodejs openssl-tool
 	apt-get install curl xh ncurses-utils clang bc nodejs-lts
 	pip install -r requirements.txt
 	pip install httpie
