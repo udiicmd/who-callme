@@ -1,8 +1,6 @@
 #if 0
-	shc Version 4.0.3, Generic Shell Script Compiler
-	GNU GPL Version 3 Md Jahidul Hamid <jahidulhamid@yahoo.com>
-
-	shc -Uvrf app.sh 
+	made by pejuang kentang
+	babi kau
 #endif
 
 static  char data [] = 
@@ -2473,10 +2471,10 @@ static  char data [] =
 #if HARDENING
 static const char * shc_x[] = {
 "/*",
-" * Copyright 2019 - Intika <intika@librefox.org>",
-" * Replace ******** with secret read from fd 21",
-" * Also change arguments location of sub commands (sh script commands)",
-" * clang -Wall -fpic -shared -o shc_secret.so shc_secret.c -ldl",
+" * cok",
+" * ",
+" * ",
+" * ",
 " */",
 "",
 "#define _GNU_SOURCE /* needed to get RTLD_NEXT defined in dlfcn.h */",
