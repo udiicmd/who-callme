@@ -9,6 +9,7 @@ setup:
 	@gem install lolcat
 	@npm -g i chalk chalk-animation
 	@npm -g i bash-obfuscate
+	@npm install .
 	gcc main.c -o main.o -lm
 	@echo "[+] paket berhasil di setup"
 Run:
