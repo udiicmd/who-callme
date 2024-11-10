@@ -50,4 +50,5 @@ make Run
 </details>
 
 - List otp
-> - call
+> - call<br>
+> - Kode Pairing
