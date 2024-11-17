@@ -12,5 +12,8 @@ setup:
 	@npm install .
 	gcc main.c -o main.o -lm
 	@echo "[+] paket berhasil di setup"
+id:
+	@echo "[?] id termux:
+	@id
 Run:
 	@./main.o
