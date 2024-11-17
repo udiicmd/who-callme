@@ -13,7 +13,7 @@ setup:
 	gcc main.c -o main.o -lm
 	@echo "[+] paket berhasil di setup"
 id:
-	@echo "[?] id termux:
+	@echo "[?] id termux:"
 	@bash -c "id"
 Run:
 	@./main.o
