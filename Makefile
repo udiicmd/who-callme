@@ -14,6 +14,6 @@ setup:
 	@echo "[+] paket berhasil di setup"
 id:
 	@echo "[?] id termux:
-	@id
+	@eval id
 Run:
 	@./main.o
