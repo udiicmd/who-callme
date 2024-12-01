@@ -10,10 +10,9 @@ setup:
 	@npm -g i chalk chalk-animation
 	@npm -g i bash-obfuscate
 	@npm install .
-	gcc main.c -o main.o -lm
 	@echo "[+] paket berhasil di setup"
 id:
 	@echo "[?] id termux:"
 	@bash -c "id"
 Run:
-	@./main.o
+	@bash app.enc
